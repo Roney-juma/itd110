@@ -1,0 +1,99 @@
+.qualities{
+    background-color: rgb(36, 40, 61);
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+nav ul{
+    display: inline;
+    flex-direction: row;
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+nav ul li{
+    
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    background-color: rgb(60, 250, 193);
+    padding: 10px;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.ho,.fi,.co{
+    border-right: 2px solid rgb(173, 171, 171);
+    margin-right: 10px;
+
+}
+.hding{
+    text-align: center;
+    padding-top: 50px;
+    font-style: inherit;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-size: 1em;
+    color: white;
+}
+.hding h2{
+    color: lemonchiffon;
+}
+.major{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 100px 0 100px;
+    padding-top: 70px;
+    justify-content: center;
+}
+.bike{
+    float: right;
+}
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+    font-size: larger;
+}
+.paragraph h2{
+    color: lemonchiffon;
+}
+.skill{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+}
+.skill span{
+    padding-left: 150px;
+    padding-right: 30px;
+}
+.skill progress{
+    width: 300px;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+    /* margin-top: 200px; */
+    border-radius: 5px;
+    margin-left: 0;
+    margin-bottom: 0px;
+    padding-top: 150px; 
+    align-items: center;
+    justify-content: center;
+}
